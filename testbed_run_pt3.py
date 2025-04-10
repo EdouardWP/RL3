@@ -1,6 +1,6 @@
 import numpy as np
 from rocket import Rocket
-from rocket_env import RocketEnv
+from rocket_env_pt2 import RocketEnv
 from stable_baselines3 import PPO
 import os
 import glob
@@ -39,8 +39,8 @@ if __name__ == '__main__':
     
     # Create the environment
     if use_improved:
-        # Import the ImprovedRocketEnv class from train_sb3.py
-        from train_sb3 import ImprovedRocketEnv
+        # Import the ImprovedRocketEnv class from train_model_pt3.py
+        from train_model_pt3 import ImprovedRocketEnv
         env = ImprovedRocketEnv(task=task, rocket_type='starship', render_mode='human')
         print("Using ImprovedRocketEnv")
     else:

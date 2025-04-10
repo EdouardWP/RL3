@@ -1,12 +1,8 @@
 # Rocket Landing Task - Part 3 Implementation Summary
 
-## Overview
-
-This document provides an overview of the implementation for Part 3 of the assignment, which involves migrating the rocket landing training process to the Stable-Baselines3 framework. The implementation focuses on training a model for the "starship" rocket type on the landing task.
-
 ## Files Created
 
-1. **rocket_env.py** (Updated)
+1. **rocket_env.py**
    - Added support for the 'starship' rocket_type
    - Implemented a proper OpenAI Gymnasium-compatible environment
    - Follows the latest Gym/Gymnasium API conventions
@@ -28,9 +24,6 @@ This document provides an overview of the implementation for Part 3 of the assig
    - Analysis document discussing potential improvements to the reward function
    - Proposes 7 specific enhancement ideas for better landing precision
    - Includes code examples and explanations of expected benefits
-
-5. **sb3_requirements.txt**
-   - Lists all required packages for running the Stable-Baselines3 implementation
 
 ## Implementation Details
 
